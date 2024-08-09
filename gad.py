@@ -8,7 +8,6 @@ import tensorflow as tf
 # Suppress TensorFlow logging
 os.environ['TF_CPP_MIN_LOG_LEVEL'] = '2'
 
-
 # Load models
 faceProto = "C:/Users/kunwa/Python/Projects/gad/opencv_face_detector.pbtxt"
 faceModel = "C:/Users/kunwa/Python/Projects/gad/opencv_face_detector_uint8.pb"
@@ -77,8 +76,6 @@ def detect_age_gender_emotion(frame):
 
 # Streamlit app
 st.title("Age, Gender, and Emotion Detection")
-
-# S
 
 # Add a header image
 header_image = "C:/Users/kunwa/Python/Projects/gad/cover.png"
